@@ -21,6 +21,10 @@ class ViewController: UIViewController {
         diceImageView1.alpha = 0.5
     }
 
-
+    
+    @IBAction func btn(_ sender: UIButton) {
+        diceImageView1.image = #imageLiteral(resourceName: "DiceFour")
+        diceImageView2.image = #imageLiteral(resourceName: "DiceFour")
+    }
 }
 
